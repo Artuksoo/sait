@@ -1,48 +1,70 @@
 body {
     font-family: sans-serif;
-    background-color: #0e1d5eff;
-}
-
-p {
-    font-size: 30px;
-    color: darkblue;
 }
 
 header {
-    background-color: white;
-    padding: 10px;
+    border: 4px solid blue ;
+    border-radius: 10px;
+    color: darkblue;
+    padding: 4px;
+    
 }
-
-header img {
-    height: 50px;
-    width: 750px;
-}
-
-h1 {
-    text-align: center;
+header a {
+    text-decoration: blue;
+    border-radius: 5px;
+    border: 3px solid darkblue;
     color: white;
-    font-size: 60px;
+    background-color: darkblue;
 }
-
-main p {
-    padding: 50px;
-    background-color: white;
-    border-radius: 30px;
-    margin: 20px;
-}
-
-main img {
-    height: 200px;
-    width: 700px;
+h1 {
+    border: 4px solid purple ;
+    border-radius: 20px;
+    text-align: center;
+    color: orange;
+    
 }
 
 footer {
+    background-color: white;
+    text-align: left;
+
+}
+footer p {
+    background-color:chartreuse;
+}
+
+nav {
+    border: 1px solid grey;
+    padding: 5px;
+    margin: 5px;
+}
+nav a {
+    text-decoration: white;
+    color: grey;
     padding: 30px;
 }
-.icons {
-    width: 50px; height: 50px;
+.intro {
+    background-color: #B03F35;
+    border-radius: 10px;
+    color:white;
+    padding: 5px;
 }
-.marker {
-    width: 20px; height: 20px;
+h2#discount {
+    color:blue;
+}
+
+h2#delivery {
+    color:blue;
+}
+.kontakt {
+    text-decoration: blue;
+    border: 3px solid darkblue;
+    margin: 5px;
     padding: 10px;
+}
+h2#wholesale {
+    color: blue;
+}
+h2#about_us {
+    color: blue;
 }
